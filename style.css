@@ -28,6 +28,7 @@ justify-content: space-between;
 align-items: center;
 }
 .nav_list{
+cursor: pointer;
 display: flex;
 margin-right:20px;
 gap:20px;
@@ -76,6 +77,7 @@ margin-top: 10px;
     border: none;
     border-radius: 25px;
     padding: 1rem 2rem;
+    cursor:  pointer;
 }
 
 .topic-right {
