@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: "mohanadfont";
-    src: url("/porject/asstes/fonts/lemon.otf") format('opentype');
+    src: url('/porject/asstes/fonts/lemon.otf') format("opentype");
 }
 
 body{
@@ -29,7 +29,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 }
-.nav_list{
+.nav_list {
 cursor: pointer;
 display: flex;
 margin-right:20px;
@@ -40,7 +40,11 @@ color: whitesmoke;
 font-size: large;
 margin-top: 10px;
 }
-.nav_list li:hover{
+.nav_list li a{
+color: whitesmoke;
+text-decoration: none;
+}
+.nav_list li a:hover{
 color: gray;
 }
 
@@ -86,10 +90,13 @@ color: gray;
 }
 .topic-left button:hover{
     background-color: rgb(42, 39, 39);
-    color: rgb(147, 250, 147);
+    color: rgb(249, 255, 249);
     font-weight: bold;
 }
+
+.topic-left button:active{
+   
+}
 .topic-right {
-    flex-basis: 50%;
-    
+    flex-basis: 50%;    
 }
