@@ -1,14 +1,32 @@
-.home { min-height: 700px; width: 100%; }
-
-.home .topic{
-  display:flex; justify-content:center; align-items:center;
-  margin-top:2rem; padding:5rem; color:white;
+.home {
+  min-height: 700px;
+  width: 100%;
 }
-.home .topic-left{ flex-basis:50%; }
-.home .topic-left h1{ font-weight:bold; font-size:5rem; width:550px; }
-.home .topic-left .description{ width:470px; margin-top:0.5rem; }
-.home .topic-left .btn{ margin-top:2rem; }
 
-.home .topic-right{ flex-basis:50%; }
+.home .topic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 5rem;
+  color: white;
+}
+.home .topic-left {
+  flex-basis: 50%;
+}
+.home .topic-left h1 {
+  font-weight: bold;
+  font-size: 5rem;
+  width: 550px;
+}
+.home .topic-left .description {
+  width: 470px;
+  margin-top: 0.5rem;
+}
+.home .topic-left .btn {
+  margin-top: 2rem;
+}
 
-
+.home .topic-right {
+  flex-basis: 50%;
+}
